@@ -1,0 +1,94 @@
+.main{
+    background-color: rgb(255, 197, 89);
+}
+
+
+.image{
+    position: absolute;
+    top: 255px;
+    left: 340px;
+    margin-right: 23%;
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 52px;
+}
+
+
+.calculator{
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    width: 475px;
+    height: 427px;
+    float: center;
+    position: absolute;
+    top: 255px;
+    left: 21.9cm;
+}
+
+
+form{
+    flex-direction: column;
+    display: grid;
+}
+
+
+input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: whitesmoke;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: -3px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 0.3 ease;
+    text-align:center;
+    
+}
+
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+
+button{
+    background-color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+}
+
+
+button:hover{
+    background-color: rgb(255, 196, 86);
+    color: rgb(0, 0, 0);
+}
+
+
+.sum{
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator Page</title>
+    <link rel="icon" type="img logo" href="Icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="petrol.js"></script>
+    
+
+</head>
+
+<body class="main">
+
+    <div class="image">
+        <img src="Gas_station.jpg" alt="Station" width="50%">
+    </div>
+
+    <div class="calculator">
+        <h1>Petrol Calculator</h1> <br>
+            <form>
+                <label for="price">Petrol Cost per Liter</label>
+                <input type ="total" id="price" value="1.72"required>
+
+            <br>
+
+                <label for="liter">Purchasing Liter Amount</label>
+                <input type="number" id="liter" value="0" required> 
+            
+            <br>
+
+                <button type="button" onclick="calculatePetrolCost()">Calculate</button>
+            </form>
+
+        <div class="sum">
+                <p>Total Purchase Amount: <span id="cost">0</span> aed</p>
+        </div>
+    </div>
+
+
+    <script src="petrol.js"></script>
+    
+
+</body>
+</html>
